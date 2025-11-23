@@ -1,0 +1,53 @@
+import 'package:get/get.dart';
+
+class AppTranslations extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+        'en_US': {
+          'app_title': 'Health Monitoring',
+          'nav_home': 'Home',
+          'nav_history': 'History',
+          'nav_students': 'Students',
+          'status': 'Status',
+          'connected': 'Connected',
+          'disconnected': 'Disconnected',
+          'history': 'History',
+          'clear_history': 'Clear history',
+          'language': 'Language',
+          'english': 'English',
+          'bangla': 'বাংলা',
+          'current_bpm': 'Current BPM',
+          'no_history': 'No history yet',
+          'students': 'Students',
+          'dummy_student_list_title': 'Student BPM Overview',
+          'confirm_clear_title': 'Clear history?',
+          'confirm_clear_message': 'This will remove all saved pulse history.',
+          'yes': 'Yes',
+          'no': 'No',
+          'cleared': 'History cleared',
+        },
+        'bn_BD': {
+          'app_title': 'স্বাস্থ্য মনিটরিং',
+          'nav_home': 'হোম',
+          'nav_history': 'ইতিহাস',
+          'nav_students': 'শিক্ষার্থী',
+          'status': 'অবস্থা',
+          'connected': 'সংযুক্ত',
+          'disconnected': 'বিচ্ছিন্ন',
+          'history': 'ইতিহাস',
+          'clear_history': 'ইতিহাস মুছুন',
+          'language': 'ভাষা',
+          'english': 'ইংরেজি',
+          'bangla': 'বাংলা',
+          'current_bpm': 'বর্তমান BPM',
+          'no_history': 'এখনও কোন ইতিহাস নেই',
+          'students': 'শিক্ষার্থী',
+          'dummy_student_list_title': 'শিক্ষার্থীদের BPM অবস্থা',
+          'confirm_clear_title': 'ইতিহাস মুছবেন?',
+          'confirm_clear_message': 'এটি সব সেভকৃত পালস ইতিহাস মুছে ফেলবে।',
+          'yes': 'হ্যাঁ',
+          'no': 'না',
+          'cleared': 'ইতিহাস মুছে ফেলা হয়েছে',
+        },
+      };
+}

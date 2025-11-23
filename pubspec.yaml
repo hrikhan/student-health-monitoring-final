@@ -33,6 +33,7 @@ dependencies:
   get: ^4.6.6
   flutter_bluetooth_serial_plus: ^0.5.1
   shared_preferences: ^2.2.2
+  fl_chart: ^0.68.0
 
 dev_dependencies:
   flutter_test:
